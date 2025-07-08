@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Test</title>
+</head>
+<body>
+    <h1>Blog API Test</h1>
+    <button onclick="testCreatePost()">Test Create Post</button>
+    <button onclick="testGetPosts()">Test Get Posts</button>
+    <div id="result"></div>
+
+    <script>
+        async function testCreatePost() {
+            try {
+                const response = await fetch('/api/blog/posts', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        title: 'Frontend Test Post',
+                        content: 'This is a test from frontend',
+                        status: 'draft',
+                        author: 'Frontend Test'
+                    })
+                });
+                
+                const result = await response.json();
+                document.getElementById('result').innerHTML = '<pre>' + JSON.stringify(result, null, 2) + '</pre>';
+                console.log('Create result:', result);
+            } catch (error) {
+                console.error('Create error:', error);
+                document.getElementById('result').innerHTML = 'Error: ' + error.message;
+            }
+        }
+
+        async function testGetPosts() {
+            try {
+                const response = await fetch('/api/blog/posts');
+                const result = await response.json();
+                document.getElementById('result').innerHTML = '<pre>' + JSON.stringify(result, null, 2) + '</pre>';
+                console.log('Get result:', result);
+            } catch (error) {
+                console.error('Get error:', error);
+                document.getElementById('result').innerHTML = 'Error: ' + error.message;
+            }
+        }
+    </script>
+</body>
+</html>
