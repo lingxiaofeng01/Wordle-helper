@@ -11,10 +11,10 @@ const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Wordle Helper - The Ultimate Wordle Solver & Strategy Guide',
+    default: 'Wordle Helper and Solver Tool – Get Hints and Solve Wordle Today',
     template: `%s | Wordle Helper`,
   },
-  description: 'Play smarter with our free Wordle helper tool and solver. Get today\'s hints, find answers fast, try guessers, cheats & word finders to beat the puzzle now!',
+  description: "Play smarter with our free Wordle helper tool and solver. Get today's hints, find answers fast, try guessers, cheats & word finders to beat the puzzle now!",
   keywords: 'Wordle Helper, Wordle solver, Wordle assistant, Wordle tool, word game helper, Wordle strategies, Wordle tips, Wordle cheat, word puzzle solver',
   authors: [{ name: 'Wordle Helper Team' }],
   creator: 'Wordle Helper',
