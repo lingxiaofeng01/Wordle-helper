@@ -406,7 +406,7 @@ export default function WordleSolverPage() {
             </div>
             <h1 className="text-4xl md:text-5xl font-black text-gray-800">
               <span className="bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
-                Ultimate Wordle helper & Strategy Tool
+                Ultimate Wordle Solver & Strategy Tool
               </span>
             </h1>
             <div className="w-12 h-12 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-xl flex items-center justify-center text-white text-2xl font-bold shadow-lg">
@@ -423,7 +423,7 @@ export default function WordleSolverPage() {
             </div>
             <div className="flex items-center gap-2 bg-white/80 px-4 py-2 rounded-full shadow-md">
               <Sparkles className="w-4 h-4 text-yellow-500" />
-              <span className="text-sm font-medium text-gray-700">Smart Wordle Assistant</span>
+              <span className="text-sm font-medium text-gray-700">Smart Wordle Helper</span>
             </div>
             <div className="flex items-center gap-2 bg-white/80 px-4 py-2 rounded-full shadow-md">
               <Award className="w-4 h-4 text-green-500" />
@@ -821,7 +821,7 @@ export default function WordleSolverPage() {
                 <p className="text-sm text-gray-600 leading-relaxed">
                   Our Wordle Helper uses advanced frequency analysis and information entropy algorithms to recommend the best choice from 14,000+ valid words.
                   <Link href="/blog" className="text-blue-600 hover:text-blue-800 ml-1 underline font-medium">
-                    Learn More Wordle Strategies
+                    Learn More Wordle Helper Strategies
                   </Link>
                 </p>
               </div>
@@ -831,7 +831,7 @@ export default function WordleSolverPage() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-3">Instant Wordle Helper Response</h3>
                 <p className="text-sm text-gray-600 leading-relaxed">
-                  Millisecond response time with our Wordle Helper tool, real-time calculation for optimal solutions. Every input gets scientific word recommendations instantly, allowing you to enjoy the game smoothly.
+                  Millisecond response time with our Wordle Solver tool, real-time calculation for optimal solutions. Every input gets scientific word recommendations instantly, allowing you to enjoy the game smoothly.
                 </p>
               </div>
               <div className="text-center p-6 bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl border-2 border-purple-100 hover:shadow-lg transition-all duration-300">
@@ -862,7 +862,7 @@ export default function WordleSolverPage() {
             <div className="text-center mb-8">
               <h2 className="text-3xl font-bold text-gray-800 mb-4">📚 Complete Wordle Helper Usage Guide</h2>
               <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-                Master our Wordle Helper tool to boost your solving efficiency by 10 times with expert techniques!
+                Master our Wordle Solver tool to boost your solving efficiency by 10 times with expert techniques!
               </p>
             </div>
             
@@ -893,7 +893,7 @@ export default function WordleSolverPage() {
                   <div>
                     <h3 className="font-bold text-gray-800 mb-2 text-lg">Get Next Wordle Helper Recommendation</h3>
                     <p className="text-gray-600 text-sm leading-relaxed">
-                      Our Wordle Helper AI will immediately calculate and display the next optimal guess. Choose a frequency or entropy strategy, and repeat this process until solved.
+                      Our Wordle Solver AI will immediately calculate and display the next optimal guess. Choose a frequency or entropy strategy, and repeat this process until solved.
                     </p>
                   </div>
                 </div>
@@ -916,7 +916,7 @@ export default function WordleSolverPage() {
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-green-500 font-bold text-lg">✓</span>
-                    <span><strong>A Great Learning Tool:</strong> Continuous use of our Wordle Helper improves your natural word intuition and strategic thinking.</span>
+                    <span><strong>Learning Tool:</strong> Continuous use of our Wordle Helper improves your natural word intuition and strategic thinking.</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-green-500 font-bold text-lg">✓</span>
@@ -944,7 +944,7 @@ export default function WordleSolverPage() {
                   This Wordle Helper strategy uses intelligent analysis based on English letter usage frequency, prioritizing words containing E, A, R, I, O, T, N, S, etc. high-frequency letters.
                 </p>
                 <div className="bg-white/80 rounded-xl p-4 mb-4">
-                  <p className="text-sm text-blue-700 font-medium mb-2">🎯 Wordle Helper Applicable Scenario:</p>
+                  <p className="text-sm text-blue-700 font-medium mb-2">🎯 Wordle Helper Best For:</p>
                   <p className="text-sm text-gray-600">
                     Players who hope to quickly get yellow and green hints with our Wordle Helper, as well as new players learning solving strategies.
                   </p>
@@ -965,13 +965,13 @@ export default function WordleSolverPage() {
                   This Wordle Helper strategy uses information theory principles to calculate information gain for each word, selecting the optimal solution that maximizes word elimination.
                 </p>
                 <div className="bg-white/80 rounded-xl p-4 mb-4">
-                  <p className="text-sm text-purple-700 font-medium mb-2">🎯 Wordle Helper Applicable Scenario:</p>
+                  <p className="text-sm text-purple-700 font-medium mb-2">🎯 Wordle Helper Best For:</p>
                   <p className="text-sm text-gray-600">
                     Advanced players who hope to solve puzzles with the fewest steps using our Wordle Helper, as well as strategy enthusiasts pursuing mathematical optimal solutions.
                   </p>
                 </div>
                 <div className="bg-purple-100 rounded-xl p-3">
-                  <p className="text-xs text-purple-700 font-medium">💡 Wordle Helper Advantage: Average Steps of Scientific Method</p>
+                  <p className="text-xs text-purple-700 font-medium">💡 Wordle Helper Advantage: Minimum Steps with Scientific Method</p>
                 </div>
               </div>
             </div>
@@ -987,7 +987,7 @@ export default function WordleSolverPage() {
                 <h2 className="text-3xl font-bold text-gray-800">📚 Expert Wordle Helper Strategies</h2>
               </div>
               <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-                Discover expert strategies, advanced techniques, and winning tips from our comprehensive Wordle Helper strategy blog.
+                Discover expert strategies, advanced techniques, and winning tips from our comprehensive Wordle Solver strategy blog.
               </p>
             </div>
 
@@ -1149,17 +1149,17 @@ export default function WordleSolverPage() {
             "featureList": [
               "AI Intelligent Wordle Helper Word Recommendation",
               "Frequency Strategy Wordle Helper Analysis",
-              "Information Entropy Optimization Wordle Helper Algorithm",
+              "Information Entropy Optimization Wordle Solver Algorithm",
               "Real-Time Wordle Helper Word Filtering",
               "Interactive Wordle Helper Guess Tracking",
-              "Multi-Strategy Wordle Helper Mode Switching"
+              "Multi-Strategy Wordle Solver Mode Switching"
             ],
             "author": {
               "@type": "Organization",
               "name": "Wordle Helper Team"
             },
             "inLanguage": "en-US",
-            "keywords": "Wordle Helper, wordle solver, Wordle Helper tool, word game, AI algorithm, game strategy, wordle assistant, intelligent recommendation, free Wordle Helper, puzzle solver"
+            "keywords": "Wordle Helper, wordle solver, Wordle Solver tool, word game, AI algorithm, game strategy, wordle assistant, intelligent recommendation, free Wordle Helper, puzzle solver"
           })
         }}
       />
